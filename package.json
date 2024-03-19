@@ -1,7 +1,7 @@
 {
   "name": "page_react",
   "version": "0.1.0",
-  "homepage": "https://juliavolk96.github.io/",
+  "homepage": "https://juliavolk96.github.io/test_radio_light",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
