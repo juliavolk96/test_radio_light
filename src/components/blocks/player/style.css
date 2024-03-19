@@ -1,0 +1,136 @@
+.player {
+  width: 95%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.player-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 1px 3px 2px rgb(205, 117, 163);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.player-container h2 span {
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.player-container h2:hover span {
+  transform: translateY(-10px);
+}
+
+.player-container h2:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.player-container h2:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+.player-container h2:hover span:nth-child(4) {
+  transition-delay: 0.3s;
+}
+
+.player-container h2:hover span:nth-child(5) {
+  transition-delay: 0.4s;
+}
+
+.player-container h2:hover span:nth-child(6) {
+  transition-delay: 0.5s;
+}
+
+.player-info {
+  gap: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-top: 2px solid  rgb(205, 117, 163);
+  border-left: 1px solid  rgb(205, 117, 163, 0.9);
+  border-bottom: 1px solid  rgb(205, 117, 163, 0.9);
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgba(12, 6, 44, 1) 0%, rgba(213, 55, 113, 0.9), rgba(12, 6, 44, 1) 100%);
+}
+
+.player-image {
+  margin: 0 auto 10px auto;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(247, 144, 247, 0.4);
+  animation: rotateImage 4s linear infinite;
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+.menu-option img {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+.dropdownmenue {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid rgba(221, 160, 221, 0.4);
+  border-radius: 5px;
+  background-color: rgba(60, 1, 60, 0.5);
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+}
+
+.dropdownmenue option {
+  color: #fff;
+  background-color: rgba(60, 1, 60, 0.5);
+}
+
+.track-info {
+  gap: 7px;
+}
+
+.track-info h3 {
+  font-size: 12px;
+}
+
+.track-info h4 {
+  font-size: 10px;
+}
+
+.track {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+@keyframes marquee {
+  0% { text-indent: 100%; }
+  100% { text-indent: -100%; }
+}
+
+.artist, .track {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  animation: marquee 15s linear infinite;
+}

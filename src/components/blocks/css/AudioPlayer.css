@@ -1,0 +1,31 @@
+.audio-player {
+  width: 100%;
+  background-color: rgb(90, 17, 74);
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(176, 50, 149);
+}
+
+.audio-player button {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 10px;
+  color: #fff;
+}
+
+.audio-player button:focus {
+  outline: none;
+}
+
+.audio-player progress {
+  width: 100%;
+  height: 5px;
+  margin-top: 10px;
+}

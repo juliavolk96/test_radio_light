@@ -1,0 +1,43 @@
+.left-block {
+  box-shadow: 0px 0px 10px 3px rgb(205, 117, 163);
+}
+
+/* .border {
+  position: relative;
+  border: 2px solid rgb(205, 117, 163, 0.2);
+  
+  &::before,
+  &::after {
+      content: "";
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      border: 2px solid rgb(226, 119, 174);
+      transition: all .5s;
+      animation: clippath 10s infinite linear;
+      border-radius: 5px;
+  }
+  
+  &::after {
+      animation: clippath 10s infinite -1.5s linear;
+  }
+}
+
+@keyframes clippath {
+  0%,
+  100% {
+      clip-path: inset(0 0 98% 0);
+  }
+  
+  25% {
+      clip-path: inset(0 98% 0 0);
+  }
+  50% {
+      clip-path: inset(98% 0 0 0);
+  }
+  75% {
+      clip-path: inset(0 0 0 98%);
+  }
+} */

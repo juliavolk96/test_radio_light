@@ -1,0 +1,11 @@
+.logo-block img {
+  background: rgb(255, 255, 255);
+}
+
+.logo-block {
+  margin-bottom: 1rem;
+}
+
+.logo-block h2 {
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,86 @@
+.authorization-container {
+  width: 95%;
+  border-radius: 5px;
+}
+
+.authorization-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 1px 3px 2px rgb(205, 117, 163);
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.authorization-container h2 span {
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.authorization-container h2:hover span {
+  transform: translateY(-10px);
+}
+
+.authorization-container h2:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.authorization-container h2:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+.authorization-container h2:hover span:nth-child(4) {
+  transition-delay: 0.3s;
+}
+
+.authorization-container h2:hover span:nth-child(5) {
+  transition-delay: 0.4s;
+}
+
+.login-form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-top: 2px solid  rgb(205, 117, 163);
+  border-right: 1px solid  rgb(205, 117, 163, 0.9);
+  border-bottom: 1px solid  rgb(205, 117, 163, 0.9);
+  border-radius: 5px;
+  background: linear-gradient(90deg, rgba(12, 6, 44, 1) 0%, rgba(213, 55, 113, 0.9), rgba(12, 6, 44, 1) 100%);
+}
+
+.login-form input::placeholder {
+  color: #fff;
+  font-size: 12px;
+}
+
+.login-form input {
+  display: inline-flex;
+  border: 1px solid rgba(221, 160, 221, 0.4);
+  border-radius: 5px;
+  background-color: rgba(60, 1, 60, 0.5);
+  color: #fff;
+  width: 170px;
+  margin: auto;
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+}
+
+.authorization-container button {
+  cursor: pointer;
+  border: 1px solid rgba(221, 160, 221, 0.4);
+  background-color: rgb(138, 6, 109);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 12px;
+}
+
+.authorization-container button:hover {
+  background-color:  rgba(113, 32, 113, 0.9);
+}

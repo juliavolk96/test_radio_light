@@ -1,0 +1,26 @@
+.no-news-container {
+  padding: 15px;
+  border: 1px solid rgba(169, 102, 202, 0.9);
+  border-top: 2px solid rgb(169, 102, 202);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, rgba(12, 6, 44, 1) 10%, rgba(183, 19, 212, 0.8) 50%, rgba(12, 6, 44, 1) 90%);
+
+}
+
+.no-news-container h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.no-news-container p {
+  font-size: 12px;
+  color: #fff;
+}

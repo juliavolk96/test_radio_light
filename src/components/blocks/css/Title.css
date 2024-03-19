@@ -1,0 +1,35 @@
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.title {
+  cursor: pointer;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.title span {
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+.title:hover span {
+  transform: translateY(-10px);
+}
+
+.title:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.title:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+.title:hover span:nth-child(4) {
+  transition-delay: 0.3s;
+}
